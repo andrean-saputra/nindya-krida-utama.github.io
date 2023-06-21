@@ -36,6 +36,7 @@ a {
 }
 
 .nav-link {
+    margin: 1.5rem 0;
     font-size: 1.25rem;
     color: #00000066;
 }
@@ -167,7 +168,7 @@ h2 {
     line-height: 18px;
     color: white;
     background-color: #FB9D2F !important;
-    width: 106px;
+    max-width: 106px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
