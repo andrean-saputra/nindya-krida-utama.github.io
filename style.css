@@ -417,6 +417,21 @@ h3 {
     right: 0;
 }
 
+.contact-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+
+    .contact-button-text{
+        color: #000;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .nav-icon{
         width: 100px;
@@ -1079,7 +1094,16 @@ h3 {
     }
 
     .section{
-        padding: 8vh 8vw;
+        padding: 20vh 8vw;
+    }
+
+    .content-title-wrapper{
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .content-wrapper-right{
+        max-width: 80%;
     }
 
     .image-wrapper {
@@ -1188,6 +1212,13 @@ h3 {
         width: 87.5%;
     }
 }
+
+@media screen and (max-width: 1440px) and (min-width: 1132px) {
+    .content-wrapper{
+        flex-wrap: nowrap !important;
+    }
+}
+
 @media screen and (max-width: 1440px) and (min-width: 1233px) {
     .content-grid-black-bg-sm {
         display: none !important;
