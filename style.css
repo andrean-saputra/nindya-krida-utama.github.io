@@ -227,7 +227,7 @@ h2 {
 
 /* Content Section Black BG CSS */
 .content-section-black-bg {
-    background-image: url(assets/black-bg.png);
+    background-image: url(assets/black-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -263,7 +263,7 @@ h2 {
 .grid-item-bg {
     min-height: 400px;
     border-radius: 12px;
-    background-image: url(assets/card-bg.png);
+    background-image: url(assets/card-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 36px;
@@ -271,12 +271,6 @@ h2 {
 
 .grid-item-bg.mid {
     margin: 0 32px;
-}
-
-.grid-item-bg.last {
-    background-image: url(assets/card-bg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .grid-title {
@@ -415,6 +409,7 @@ h3 {
     position: absolute;
     top: 0;
     right: 0;
+    height: 100%;
 }
 
 .contact-button{
