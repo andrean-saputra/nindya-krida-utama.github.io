@@ -25,18 +25,15 @@ a {
     max-width: 1510px !important;
     margin: 0 auto;
     padding: 2.5rem 0;
+    justify-content: space-between;
 }
 
-.navbar-nav {
-    margin: auto auto;
-}
-
-.nav-item {
-    margin-right: 6rem;
+#navbarNav{
+    justify-content: space-between
 }
 
 .nav-link {
-    margin: 1.5rem 0;
+    width: fit-content;
     font-size: 1.25rem;
     color: #00000066;
 }
@@ -432,6 +429,10 @@ h3 {
         width: 100px;
     }
 
+    .nav-item{
+        margin: 8px 0;
+    }
+
     h1 {
         font-size: 1.8rem !important;
     }
@@ -564,6 +565,9 @@ h3 {
 }
 
 @media only screen and (min-width: 325px) and (max-width: 375px) {
+    .nav-item{
+        margin: 8px 0;
+    }
     .nav-icon{
         width: 120px;
     }
@@ -700,6 +704,10 @@ h3 {
 }
 
 @media only screen and (min-width: 376px) and (max-width: 479px) {
+    .nav-item{
+        margin: 8px 0;
+    }
+ 
     h1 {
         font-size: 2rem !important;
     }
@@ -811,6 +819,10 @@ h3 {
 }
 
 @media only screen and (min-width: 430px) and (max-width: 499px) {
+    .nav-item{
+        margin: 8px 0;
+    }
+
     h1 {
         font-size: 2rem !important;
     }
@@ -902,6 +914,10 @@ h3 {
 }
 
 @media only screen and (min-width: 430px) and (max-width: 768px) {
+    .nav-item{
+        margin: 8px 0;
+    }
+ 
     h1 {
         font-size: 2rem !important;
     }
@@ -998,6 +1014,10 @@ h3 {
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .nav-item{
+        margin: 8px 0;
+    }
     h1 {
         font-size: 2.5rem !important;
     }
@@ -1209,12 +1229,22 @@ h3 {
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1132px) {
+    .navbar-nav {
+        width: 65%;
+        margin: auto auto;
+        justify-content: space-between;
+    }
     .content-wrapper{
         flex-wrap: nowrap !important;
     }
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1233px) {
+    .navbar-nav {
+        width: 65%;
+        margin: auto auto;
+        justify-content: space-between;
+    }
     .content-grid-black-bg-sm {
         display: none !important;
     }
@@ -1324,6 +1354,11 @@ h3 {
 }
 
 @media screen and (max-width: 1506px) and (min-width: 1441px) {
+    .navbar-nav {
+        width: 65%;
+        margin: auto auto;
+        justify-content: space-between;
+    }
     .content-grid-black-bg-sm {
         display: none !important;
     }
@@ -1435,6 +1470,12 @@ h3 {
 }
 
 @media screen and (max-width: 2560px) and (min-width: 1508px) {
+    .navbar-nav {
+        width: 65%;
+        margin: auto auto;
+        justify-content: space-between;
+    }
+
     .content-grid-black-bg-sm {
         display: none !important;
     }
