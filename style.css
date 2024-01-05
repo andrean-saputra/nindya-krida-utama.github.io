@@ -96,6 +96,10 @@ h2 {
   top: 0;
 }
 
+.hero-logo-row{
+    display: none;
+}
+
 .subtitle-wrapper {
   margin: 6vh 0 8vh 0;
 }
@@ -164,7 +168,7 @@ h2 {
   line-height: 18px;
   color: white;
   background-color: #fb9d2f !important;
-  max-width: 106px;
+  width: fit-content;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -245,7 +249,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 131px;
+  width: fit-content;
 }
 
 .header-wrapper {
@@ -755,10 +759,16 @@ h3 {
   }
 
   .hero-logo-wrapper {
-    display: flex;
+    display: none !important;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5.25rem;
+  }
+
+  .hero-logo-row{
+    display: flex;
+    justify-content: space-between;
     margin-top: 5.25rem;
   }
 
