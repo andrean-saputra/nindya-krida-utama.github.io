@@ -1248,6 +1248,14 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1410px) and (min-width: 1233px) {
+    .content-grid-black-bg {
+        display: flex;
+        flex-wrap: nowrap !important;
+        gap: 16px;
+      }
+}
+
 @media screen and (max-width: 1440px) and (min-width: 1233px) {
   .navbar-nav {
     width: 65%;
